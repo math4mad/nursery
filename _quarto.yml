@@ -13,6 +13,8 @@ website:
         text: "经验 · Empeiria"
       - href: explore.qmd
         text: "探索 · Ὁδός"
+      - href: skeleton.qmd
+        text: "骨架 · Σκελετός"
       - href: LEDGER.qmd
         text: "台账 · Logion"
     right:
