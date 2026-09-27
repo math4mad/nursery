@@ -41,3 +41,15 @@ a { color: var(--nv-accent); }
 table { font-size: .92rem; }
 .navbar { background: var(--nv-paper) !important; border-bottom: 1px solid var(--nv-line); }
 .navbar-title { font-family: Palatino, serif; }
+
+/* ---- 探索 Ὁδός 舞台 ---- */
+#mv-hero { position: relative; height: calc(100vh - 62px); min-height: 560px; margin: -1.6rem calc(50% - 50vw) 2.5rem; width: 100vw; background: var(--nv-void); overflow: hidden; }
+#mv-stage, #mv-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; z-index: 0; }
+#mv-caption { pointer-events: none; position: absolute; top: 5%; left: 0; right: 0; text-align: center; letter-spacing: .3em; color: var(--nv-soft); font-size: .85rem; z-index: 5; }
+#mv-caption .mv-cap-num { color: var(--nv-gold); margin-right: .8em; font-family: Palatino, serif; }
+#mv-hint { pointer-events: none; position: absolute; bottom: 6%; left: 0; right: 0; text-align: center; color: var(--nv-ink); font-size: .95rem; z-index: 5; font-style: italic; opacity: .85; }
+.mv-dots { pointer-events: none; position: absolute; top: 10.5%; left: 0; right: 0; display: flex; gap: .5rem; justify-content: center; z-index: 5; }
+.mv-dot { width: .5rem; height: .5rem; border-radius: 50%; border: 1px solid var(--nv-gold); background: transparent; }
+.mv-dot.on { background: var(--nv-gold); }
+#mv-replay { position: absolute; right: 1.1rem; bottom: 1.1rem; width: 2rem; height: 2rem; border: 1px solid var(--nv-line); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--nv-soft); cursor: pointer; background: rgba(255,253,249,.7); z-index: 6; }
+#mv-note { max-width: 860px; margin: 0 auto; }

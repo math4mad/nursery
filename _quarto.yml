@@ -11,6 +11,8 @@ website:
         text: "门前 · Πυλή"
       - href: experience.qmd
         text: "经验 · Empeiria"
+      - href: explore.qmd
+        text: "探索 · Ὁδός"
       - href: LEDGER.qmd
         text: "台账 · Logion"
     right:

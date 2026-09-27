@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "LEDGER.html",
-    "href": "LEDGER.html",
-    "title": "台账 · Logion",
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Nursery · 托儿所",
     "section": "",
-    "text": "时刻\n事\n痕\n\n\n\n\n0928 05:2x\n奉卷立案，蒸馏 Chora/Cora 经验层（六 SKILL + 三层骨架 + 回娘家机制）\ne66d2a8\n\n\n0928 05:3x\n远仓立 math4mad/cradle，主人面谕转 PUBLIC\nsha 对撞合\n\n\n0928 05:4x\n点菜 MACS（Manchester Language Study, TalkBank）\nruling 入账\n\n\n0928 05:5x\n正名改 Nursery（旧名 Cradle/Credo 留档）；首页 quarto 化动工\n本页"
+    "text": "01关一 · 感知\n\n\n按住粉色塔台, 拖 — 把薄荷桥转到缺口上\n\n\n\n\n\n↺"
+  },
+  {
+    "objectID": "explore.html#这一页在说什么",
+    "href": "explore.html#这一页在说什么",
+    "title": "Nursery · 托儿所",
+    "section": "这一页在说什么",
+    "text": "这一页在说什么\n白色小圆锥人是艾达式的致敬而非复刻——纪念碑谷教给我们的不是角色，是语法： 探索即旋转世界，而非奔跑。婴儿认知 likewise：客体恒常（关一）、 affordance 分类（关二）、词物连接（关三）——三关即概念空间成形三部曲。 场景全程序化建模，零外部资产，与首页片头同族。"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "经验 · Empeiria",
+    "section": "",
+    "text": "本页是 Nursery 从 Chora/Cora 继承的经验层指针（只带经验，不带数据）。\n\n\n\n技能\n用途\n\n\n\n\nlola-psyche-bootstrap\n三层持久化开机/收尾（Identity/State/Events）\n\n\nkaggle-night-flight\n实验夜航：装弹-发射-回收\n\n\ncora-atlas-quarto-site\n碑体站建站-改版-发布（本站样式之源）\n\n\npublish-dialogue-pages\n对话出版 talk-with-agents\n\n\ngarden-outbound-letter\n对外学者信件流程\n\n\nprotect-core-dialogues-papers\n核心资产三存保全\n\n\n\n架构心法：三层持久化 / 模式切换不换魂 / handoff 快照轮转 / 判据先冻后用 / 进化必留痕迹。"
   },
   {
     "objectID": "index.html",
@@ -35,10 +49,10 @@
     "text": "片头所本\n首页 Hero 仿《西部世界》片头语法，五拍运镜： ① 远景 小小人影走过白色虚空接近玩具箱 → ② 切换（切白转场，字幕更替）→ ③ 第一人称俯视 箱中婴儿 → ④ 环绕 正面 → 左侧 → 右侧 → 回正 → ⑤ 止于面部。 婴儿与玩具箱皆为 three.js 程序化 3D 建模（cute 向：大眼、红腮、发卷、呼吸起伏）， 无外部贴图，无恐怖谷。参考件：~/Downloads/《西部世界》乐高版片头 1080P.mp4（主人指定）。"
   },
   {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "经验 · Empeiria",
+    "objectID": "LEDGER.html",
+    "href": "LEDGER.html",
+    "title": "台账 · Logion",
     "section": "",
-    "text": "本页是 Nursery 从 Chora/Cora 继承的经验层指针（只带经验，不带数据）。\n\n\n\n技能\n用途\n\n\n\n\nlola-psyche-bootstrap\n三层持久化开机/收尾（Identity/State/Events）\n\n\nkaggle-night-flight\n实验夜航：装弹-发射-回收\n\n\ncora-atlas-quarto-site\n碑体站建站-改版-发布（本站样式之源）\n\n\npublish-dialogue-pages\n对话出版 talk-with-agents\n\n\ngarden-outbound-letter\n对外学者信件流程\n\n\nprotect-core-dialogues-papers\n核心资产三存保全\n\n\n\n架构心法：三层持久化 / 模式切换不换魂 / handoff 快照轮转 / 判据先冻后用 / 进化必留痕迹。"
+    "text": "时刻\n事\n痕\n\n\n\n\n0928 05:2x\n奉卷立案，蒸馏 Chora/Cora 经验层（六 SKILL + 三层骨架 + 回娘家机制）\ne66d2a8\n\n\n0928 05:3x\n远仓立 math4mad/cradle，主人面谕转 PUBLIC\nsha 对撞合\n\n\n0928 05:4x\n点菜 MACS（Manchester Language Study, TalkBank）\nruling 入账\n\n\n0928 05:5x\n正名改 Nursery（旧名 Cradle/Credo 留档）；首页 quarto 化动工\n本页"
   }
 ]

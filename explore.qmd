@@ -1,0 +1,24 @@
+---
+format:
+  html:
+    page-layout: full
+---
+
+<section id="mv-hero" aria-label="探索 · Ὁδός">
+  <div id="mv-stage"></div>
+  <div id="mv-caption"><span class="mv-cap-num">01</span><span class="mv-cap-txt">关一 · 感知</span></div>
+  <div id="mv-hint">按住粉色塔台, 拖 — 把薄荷桥转到缺口上</div>
+  <div class="mv-dots"><span class="mv-dot"></span><span class="mv-dot"></span><span class="mv-dot"></span></div>
+  <div id="mv-replay" title="重来" role="button" tabindex="0">↺</div>
+  <script src="javascripts/three.min.js"></script>
+  <script src="javascripts/explore.js"></script>
+</section>
+
+::: {#mv-note}
+## 这一页在说什么
+
+白色小圆锥人是**艾达式的致敬而非复刻**——纪念碑谷教给我们的不是角色，是语法：
+**探索即旋转世界，而非奔跑**。婴儿认知 likewise：客体恒常（关一）、
+affordance 分类（关二）、词物连接（关三）——三关即概念空间成形三部曲。
+场景全程序化建模，零外部资产，与首页片头同族。
+:::
