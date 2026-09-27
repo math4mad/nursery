@@ -1,0 +1,39 @@
+/* Nursery · 亮色盘 (0928 v1, 后期再改) —— 与 cora-atlas 盘化同理, 只走 :root 变量 */
+:root {
+  --nv-void:   #f7f5f1;  /* 白空 */
+  --nv-paper:  #fffdf9;
+  --nv-ink:    #2b2620;
+  --nv-soft:   #6f665a;
+  --nv-line:   #e4dccf;
+  --nv-accent: #c98a4b;  /* 暖木色, 玩具箱之裔 */
+  --nv-gold:   #b8963f;
+}
+
+/* ---- Hero 舞台 ---- */
+#ww-hero { position: relative; height: 92vh; min-height: 540px; margin: -1.6rem -1.5rem 2.5rem; background: var(--nv-void); overflow: hidden; }
+#ww-stage, #ww-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+#ww-fade { position: absolute; inset: 0; background: var(--nv-void); opacity: 0; pointer-events: none; transition: opacity .12s linear; }
+
+#ww-plate { position: absolute; left: 0; right: 0; bottom: 9%; text-align: center; pointer-events: none; }
+#ww-plate .ww-kicker { letter-spacing: .35em; text-transform: uppercase; font-size: .78rem; color: var(--nv-soft); }
+#ww-plate .ww-title { font-family: Palatino, "Palatino Linotype", serif; font-size: clamp(2.6rem, 7vw, 5rem); color: var(--nv-ink); margin: .3rem 0 .2rem; font-weight: 700; }
+#ww-plate .ww-cn { font-size: .55em; font-weight: 400; color: var(--nv-soft); }
+#ww-plate .ww-motto { font-style: italic; color: var(--nv-soft); font-size: 1.02rem; margin-bottom: .9rem; }
+#ww-plate .ww-links { display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap; pointer-events: auto; }
+#ww-plate .ww-link { color: var(--nv-ink); text-decoration: none; border-bottom: 1px solid var(--nv-line); font-size: .9rem; padding-bottom: .12rem; }
+#ww-plate .ww-link:hover { border-bottom-color: var(--nv-accent); color: var(--nv-accent); }
+
+#ww-caption { position: absolute; top: 7%; left: 0; right: 0; text-align: center; letter-spacing: .3em; color: var(--nv-soft); font-size: .82rem; }
+#ww-caption .ww-cap-num { color: var(--nv-gold); margin-right: .8em; font-family: Palatino, serif; }
+
+#ww-replay { position: absolute; right: 1.1rem; bottom: 1.1rem; width: 2rem; height: 2rem; border: 1px solid var(--nv-line); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--nv-soft); cursor: pointer; background: rgba(255,253,249,.7); }
+#ww-replay:hover { color: var(--nv-accent); border-color: var(--nv-accent); }
+
+/* ---- 正文版式 ---- */
+body { background: var(--nv-paper); color: var(--nv-ink); }
+main { max-width: 860px; margin: 0 auto; }
+h2 { font-family: Palatino, serif; border-bottom: 1px solid var(--nv-line); padding-bottom: .35rem; }
+a { color: var(--nv-accent); }
+table { font-size: .92rem; }
+.navbar { background: var(--nv-paper) !important; border-bottom: 1px solid var(--nv-line); }
+.navbar-title { font-family: Palatino, serif; }

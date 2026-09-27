@@ -1,0 +1,16 @@
+---
+title: "经验 · Empeiria"
+---
+
+本页是 Nursery 从 `Chora/Cora` 继承的**经验层**指针（只带经验，不带数据）。
+
+| 技能 | 用途 |
+|------|------|
+| lola-psyche-bootstrap | 三层持久化开机/收尾（Identity/State/Events） |
+| kaggle-night-flight | 实验夜航：装弹-发射-回收 |
+| cora-atlas-quarto-site | 碑体站建站-改版-发布（本站样式之源） |
+| publish-dialogue-pages | 对话出版 talk-with-agents |
+| garden-outbound-letter | 对外学者信件流程 |
+| protect-core-dialogues-papers | 核心资产三存保全 |
+
+架构心法：**三层持久化 / 模式切换不换魂 / handoff 快照轮转 / 判据先冻后用 / 进化必留痕迹**。

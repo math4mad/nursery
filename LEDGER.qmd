@@ -1,0 +1,10 @@
+---
+title: "台账 · Logion"
+---
+
+| 时刻 | 事 | 痕 |
+|------|----|----|
+| 0928 05:2x | 奉卷立案，蒸馏 Chora/Cora 经验层（六 SKILL + 三层骨架 + 回娘家机制） | e66d2a8 |
+| 0928 05:3x | 远仓立 `math4mad/cradle`，主人面谕转 PUBLIC | sha 对撞合 |
+| 0928 05:4x | 点菜 MACS（Manchester Language Study, TalkBank） | ruling 入账 |
+| 0928 05:5x | **正名改 Nursery**（旧名 Cradle/Credo 留档）；首页 quarto 化动工 | 本页 |

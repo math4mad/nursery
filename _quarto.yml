@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Nursery · 托儿所"
+  description: "Baby Concept Space —— 儿童语料 (MACS) 概念空间研究; 旧名 Cradle/Credo, 名迹在账"
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: "门前 · Πυλή"
+      - href: experience.qmd
+        text: "经验 · Empeiria"
+      - href: LEDGER.qmd
+        text: "台账 · Logion"
+    right:
+      - href: https://math4mad.github.io/cora-atlas/
+        text: "碑前 · Cora Atlas ↗"
+      - href: https://github.com/math4mad/cradle
+        text: Repo
+format:
+  html:
+    theme: flatly
+    css: styles/site.css
+    lang: zh
+    mainfont: "PingFang SC, Hiragino Sans GB, sans-serif"
+title-block-banner: false
+execute:
+  echo: false
