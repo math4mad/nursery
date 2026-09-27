@@ -1,5 +1,4 @@
 ---
-title: "Nursery · 托儿所"
 format:
   html:
     page-layout: full

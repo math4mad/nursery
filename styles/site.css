@@ -10,11 +10,15 @@
 }
 
 /* ---- Hero 舞台 ---- */
-#ww-hero { position: relative; height: 92vh; min-height: 540px; margin: -1.6rem -1.5rem 2.5rem; background: var(--nv-void); overflow: hidden; }
+#ww-hero { position: relative; height: calc(100vh - 62px); min-height: 540px; margin: -1.6rem calc(50% - 50vw) 2.5rem; width: 100vw; background: var(--nv-void); overflow: hidden; }
 #ww-stage, #ww-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 #ww-fade { position: absolute; inset: 0; background: var(--nv-void); opacity: 0; pointer-events: none; transition: opacity .12s linear; }
+#ww-hero::after { content:""; position:absolute; left:0; right:0; bottom:0; height:40%; background:linear-gradient(transparent, rgba(247,245,241,.72) 80%); pointer-events:none; z-index:1; }
+#ww-stage { z-index:0; }
+#ww-plate, #ww-caption, #ww-replay { z-index:5; }
+#ww-fade { z-index:9; }
 
-#ww-plate { position: absolute; left: 0; right: 0; bottom: 9%; text-align: center; pointer-events: none; }
+#ww-plate { position: absolute; left: 0; right: 0; bottom: 3.5%; text-align: center; pointer-events: none; }
 #ww-plate .ww-kicker { letter-spacing: .35em; text-transform: uppercase; font-size: .78rem; color: var(--nv-soft); }
 #ww-plate .ww-title { font-family: Palatino, "Palatino Linotype", serif; font-size: clamp(2.6rem, 7vw, 5rem); color: var(--nv-ink); margin: .3rem 0 .2rem; font-weight: 700; }
 #ww-plate .ww-cn { font-size: .55em; font-weight: 400; color: var(--nv-soft); }

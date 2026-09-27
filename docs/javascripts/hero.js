@@ -26,13 +26,13 @@
   var VOID = 0xf7f5f1;
   var scene = new THREE.Scene();
   scene.background = new THREE.Color(VOID);
-  scene.fog = new THREE.FogExp2(VOID, 0.055);
+  scene.fog = new THREE.FogExp2(VOID, 0.095);
 
   var camera = new THREE.PerspectiveCamera(38, 1, 0.1, 300);
 
   /* ---- 灯光: 白空漫射 + 暖主光 ---- */
   scene.add(new THREE.HemisphereLight(0xffffff, 0xd9d2c5, 0.85));
-  var sun = new THREE.DirectionalLight(0xfff2df, 0.9);
+  var sun = new THREE.DirectionalLight(0xfff2df, 0.72);
   sun.position.set(6, 12, 8);
   sun.castShadow = true;
   sun.shadow.mapSize.set(1024, 1024);
@@ -43,7 +43,7 @@
   /* ---- 地面: 无尽白 ---- */
   var floor = new THREE.Mesh(
     new THREE.PlaneGeometry(600, 600),
-    new THREE.MeshStandardMaterial({ color: 0xfaf8f4, roughness: 1 })
+    new THREE.MeshStandardMaterial({ color: VOID, roughness: 1 })
   );
   floor.rotation.x = -Math.PI / 2;
   floor.receiveShadow = true;
@@ -51,16 +51,16 @@
 
   /* ---- 玩具箱 (木色开口箱 + 四脚) ---- */
   var box = new THREE.Group();
-  var wood = new THREE.MeshStandardMaterial({ color: 0xd9b98c, roughness: 0.85 });
+  var wood = new THREE.MeshStandardMaterial({ color: 0xc9a678, roughness: 0.85 });
   var woodDark = new THREE.MeshStandardMaterial({ color: 0xb8946a, roughness: 0.9 });
   function wall(w, h, d, x, y, z, m) {
     var mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m || wood);
     mesh.position.set(x, y, z); mesh.castShadow = mesh.receiveShadow = true; box.add(mesh); return mesh;
   }
-  wall(1.2, 0.5, 0.08, 0, 0.35, 0.56);        // 前
-  wall(1.2, 0.5, 0.08, 0, 0.35, -0.56);       // 后
-  wall(0.08, 0.5, 1.2, 0.56, 0.35, 0);        // 右
-  wall(0.08, 0.5, 1.2, -0.56, 0.35, 0);       // 左
+  wall(1.2, 0.42, 0.08, 0, 0.31, 0.56);       // 前
+  wall(1.2, 0.42, 0.08, 0, 0.31, -0.56);      // 后
+  wall(0.08, 0.42, 1.2, 0.56, 0.31, 0);       // 右
+  wall(0.08, 0.42, 1.2, -0.56, 0.31, 0);      // 左
   wall(1.24, 0.08, 1.24, 0, 0.06, 0, woodDark); // 底
   [[0.5, 0.5], [-0.5, 0.5], [0.5, -0.5], [-0.5, -0.5]].forEach(function (p) {
     var leg = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.045, 0.14, 10), woodDark);
@@ -89,32 +89,33 @@
 
   /* ---- 婴儿 (程序化 cute 建模) ---- */
   var baby = new THREE.Group();
-  var skin = new THREE.MeshStandardMaterial({ color: 0xf6d9c2, roughness: 0.95 });
+  var skin = new THREE.MeshStandardMaterial({ color: 0xf0c8ab, roughness: 0.95 });
   var onesie = new THREE.MeshStandardMaterial({ color: 0xfdfbf6, roughness: 1 });
   var dark = new THREE.MeshStandardMaterial({ color: 0x3b2f2a, roughness: 0.6 });
   var blush = new THREE.MeshStandardMaterial({ color: 0xf0b6a4, roughness: 1 });
 
   var head = new THREE.Mesh(new THREE.SphereGeometry(0.19, 32, 24), skin);
-  head.position.set(0, 0.42, 0.26); head.castShadow = true; baby.add(head);
-  /* 头发小卷 */
-  var curl = new THREE.Mesh(new THREE.TorusGeometry(0.045, 0.016, 10, 20, Math.PI * 1.5), dark);
-  curl.position.set(0, 0.585, 0.2); curl.rotation.x = Math.PI / 2.4; baby.add(curl);
-  /* 眼 + 高光 */
-  [[-0.075, 0], [0.075, 0]].forEach(function (p) {
-    var eye = new THREE.Mesh(new THREE.SphereGeometry(0.026, 16, 12), dark);
-    eye.position.set(p[0], 0.42, 0.435); baby.add(eye);
-    var glint = new THREE.Mesh(new THREE.SphereGeometry(0.008, 8, 8),
-      new THREE.MeshBasicMaterial({ color: 0xffffff }));
-    glint.position.set(p[0] + 0.01, 0.432, 0.452); baby.add(glint);
-  });
-  /* 腮红 */
-  [[-0.115], [0.115]].forEach(function (p) {
-    var bl = new THREE.Mesh(new THREE.SphereGeometry(0.032, 12, 10), blush);
-    bl.scale.set(1, 0.55, 0.35); bl.position.set(p[0], 0.375, 0.42); baby.add(bl);
-  });
-  /* 小嘴 */
-  var mouth = new THREE.Mesh(new THREE.SphereGeometry(0.02, 12, 10), blush);
-  mouth.scale.set(1.2, 0.6, 0.5); mouth.position.set(0, 0.345, 0.43); baby.add(mouth);
+  head.position.set(0, 0.42, 0.2); head.castShadow = true; baby.add(head);
+  /* 头发小卷 — 额前上方 */
+  var curl = new THREE.Mesh(new THREE.TorusGeometry(0.042, 0.015, 10, 20, Math.PI * 1.5), dark);
+  curl.position.set(0, 0.585, 0.1); curl.rotation.x = Math.PI / 2.1; baby.add(curl);
+  /* 五官贴球面: 头心 C=(0,0.42,0.2) R=0.19, 脸朝前上 45° */
+  function onHead(dx, dy, dz, r, m, sink) {
+    var L = Math.sqrt(dx * dx + dy * dy + dz * dz);
+    var k = (0.19 - (r || 0) * (sink === undefined ? 0.5 : sink)) / L;
+    var mesh = new THREE.Mesh(new THREE.SphereGeometry(r, 16, 12), m);
+    mesh.position.set(dx * k, 0.42 + dy * k, 0.2 + dz * k);
+    baby.add(mesh); return mesh;
+  }
+  var eyeL = onHead(-0.075, 0.13, 0.13, 0.03, dark);
+  var eyeR = onHead(0.075, 0.13, 0.13, 0.03, dark);
+  var gL = onHead(-0.062, 0.155, 0.155, 0.01, new THREE.MeshBasicMaterial({ color: 0xffffff }), 0);
+  var gR = onHead(0.088, 0.155, 0.155, 0.01, new THREE.MeshBasicMaterial({ color: 0xffffff }), 0);
+  var blL = onHead(-0.125, 0.09, 0.14, 0.024, blush, 0.8); blL.scale.set(1.2, 0.5, 1);
+  var blR = onHead(0.125, 0.09, 0.14, 0.024, blush, 0.8); blR.scale.set(1.2, 0.5, 1);
+  var mouth = onHead(0, 0.045, 0.175, 0.02, blush, 0.6); mouth.scale.set(1.3, 0.55, 0.8);
+  /* 发卷移到额顶交界 */
+  curl.position.set(0, 0.55, 0.06);
   /* 身体 (连体衣, 躺姿) */
   var body = new THREE.Mesh(new THREE.SphereGeometry(0.2, 28, 20), onesie);
   body.scale.set(0.85, 0.62, 1.25); body.position.set(0, 0.24, -0.05);
@@ -122,11 +123,11 @@
   /* 小手 */
   [-0.19, 0.19].forEach(function (x) {
     var arm = new THREE.Mesh(new THREE.SphereGeometry(0.055, 14, 12), skin);
-    arm.position.set(x, 0.3, 0.12); baby.add(arm);
+    arm.position.set(x, 0.32, 0.1); baby.add(arm);
   });
   /* 小脚丫从垫上探出 */
   var foot = new THREE.Mesh(new THREE.SphereGeometry(0.05, 14, 12), skin);
-  foot.scale.set(0.8, 0.7, 1); foot.position.set(0.1, 0.2, -0.32); baby.add(foot);
+  foot.scale.set(0.8, 0.7, 1); foot.position.set(0.1, 0.2, -0.3); baby.add(foot);
   box.add(baby);
 
   /* ---- 男孩剪影 (远景行走者) ---- */
@@ -143,7 +144,7 @@
   var legR = limb(0.07, 0.42, 0.05, 0.21, 0); boy.add(legR);
   var armL = limb(0.05, 0.34, -0.13, 0.65, 0); boy.add(armL);
   var armR = limb(0.05, 0.34, 0.13, 0.65, 0); boy.add(armR);
-  boy.position.set(-6.5, 0, -3.2);
+  boy.scale.setScalar(0.82); boy.position.set(-7.2, 0, -4.6);
   scene.add(boy);
 
   /* ---- 运镜 ---- */
@@ -166,7 +167,7 @@
       look.set(0, 0.45, 0);
       /* 男孩走向玩具箱 */
       var wu = ease(t / 7.5);
-      boy.position.x = -6.5 + 5.6 * wu; boy.position.z = -3.2 + 2.7 * wu;
+      boy.position.x = -7.2 + 6.1 * wu; boy.position.z = -4.6 + 3.7 * wu;
       boy.rotation.y = 0.6;
       var sw = Math.sin(t * 9) * 0.5;
       legL.rotation.x = sw; legR.rotation.x = -sw;
@@ -175,9 +176,9 @@
     } else boy.visible = false;
     /* B: 第一人称俯视 */
     if (t >= 8 && t < 11) {
-      var u2 = ease((t - 8) / 2);
-      camera.position.set(0.35 - 0.35 * u2, 2.4 - 0.5 * u2, 0.95 - 0.25 * u2);
-      look.set(0, 0.35, 0.1);
+      var u2 = ease((t - 8) / 2.2);
+      camera.position.set(0.3 - 0.3 * u2, 2.1 - 0.6 * u2, 1.4 - 0.45 * u2);
+      look.set(0, 0.47, 0.2);
     }
     /* C: 环绕 正→左→右→正 */
     if (t >= 11 && t < 18) {
@@ -186,15 +187,15 @@
       if (tt < 0.3) ang = -ease(tt / 0.3) * 1.15;                     // 正→左
       else if (tt < 0.75) ang = -1.15 + ease((tt - 0.3) / 0.45) * 2.3; // 左→右
       else ang = 1.15 - ease((tt - 0.75) / 0.25) * 1.15;               // 右→正
-      var R = 2.15 - 0.15 * tt, H = 1.15 - 0.1 * Math.sin(tt * Math.PI);
-      camera.position.set(Math.sin(ang) * R, H, Math.cos(ang) * R);
-      look.set(0, 0.42, 0.15);
+      var R = 2.0 - 0.25 * tt, H = 1.05 - 0.18 * Math.sin(tt * Math.PI);
+      camera.position.set(Math.sin(ang) * R, H, 0.2 + Math.cos(ang) * R);
+      look.set(0, 0.48, 0.2);
     }
     /* D: 面部特写 */
     if (t >= 18) {
-      var u4 = ease((t - 18) / 2.5);
-      camera.position.set(0, 1.0 - 0.24 * u4 + 0.015 * Math.sin(t * 2), 0 + (0.98 - 0.42 * u4));
-      look.set(0, 0.42, 0.3);
+      var u4 = ease((t - 18) / 3);
+      camera.position.set(0, 1.08 - 0.1 * u4 + 0.012 * Math.sin(t * 2), 1.5 - 0.38 * u4);
+      look.set(0, 0.53, 0.2);
     }
     /* 切白: 两段转场 */
     var f = 0;
@@ -208,30 +209,38 @@
   }
 
   function resize() {
-    var w = host.clientWidth, h = host.clientHeight;
+    var w = host.clientWidth || window.innerWidth, h = host.clientHeight || 600;
     renderer.setSize(w, h, false);
     camera.aspect = w / h; camera.updateProjectionMatrix();
   }
-  window.addEventListener('resize', resize); resize();
+  window.addEventListener('resize', resize);
+  if (window.ResizeObserver) new ResizeObserver(resize).observe(host);
+  resize();
+  requestAnimationFrame(function(){ resize(); setTimeout(resize, 150); });
 
   var clock0 = performance.now();
+  var frozen = null;
+  var qp = new URLSearchParams(location.search).get('t');
+  if (qp !== null) frozen = parseFloat(qp) % LOOP;
+  window.__ww = { seek: function (v) { frozen = ((v % LOOP) + LOOP) % LOOP; }, LOOP: LOOP, debug: function(){ return { cam:[+camera.position.x.toFixed(2),+camera.position.y.toFixed(2),+camera.position.z.toFixed(2)], look:[+look.x.toFixed(2),+look.y.toFixed(2),+look.z.toFixed(2)], buf:[renderer.domElement.width,renderer.domElement.height], css:[renderer.domElement.clientWidth,renderer.domElement.clientHeight], t: (frozen!==null?frozen:-1) }; } };
   function frame(now) {
-    var t = ((now - clock0) / 1000) % LOOP;
+    var t = frozen !== null ? frozen : ((now - clock0) / 1000) % LOOP;
     /* 婴儿呼吸 */
     body.scale.y = 0.62 + 0.012 * Math.sin(t * 2.2);
-    head.position.y = 0.42 + 0.004 * Math.sin(t * 2.2 + 1);
+    head.position.y = 0.42 + 0.005 * Math.sin(t * 2.2 + 1);
     if (!reduce) choreo(t);
     camera.lookAt(look);
     renderer.render(scene, camera);
-    if (!reduce) requestAnimationFrame(frame);
+    if (!reduce && frozen === null) requestAnimationFrame(frame);
+    else if (!reduce) requestAnimationFrame(frame);
   }
   if (reduce) { choreoStatic(); camera.lookAt(look); capNum.textContent = '04'; capTxt.textContent = '止于面部 · 静帧'; renderer.render(scene, camera); }
   else requestAnimationFrame(frame);
 
   function choreoStatic() {
-    camera.position.set(0, 0.78, 0.62); look.set(0, 0.42, 0.3);
+    camera.position.set(0, 0.92, 1.1); look.set(0, 0.5, 0.2);
   }
 
   var rp = document.getElementById('ww-replay');
-  if (rp) rp.addEventListener('click', function () { clock0 = performance.now(); });
+  if (rp) rp.addEventListener('click', function () { clock0 = performance.now(); frozen = null; history.replaceState(null,'',location.pathname); });
 })();
