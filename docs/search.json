@@ -14,39 +14,130 @@
     "text": "这一页在说什么\n白色小圆锥人是艾达式的致敬而非复刻——纪念碑谷教给我们的不是角色，是语法： 探索即旋转世界，而非奔跑。婴儿认知 likewise：客体恒常（关一）、 affordance 分类（关二）、词物连接（关三）——三关即概念空间成形三部曲。 场景全程序化建模，零外部资产，与首页片头同族。"
   },
   {
-    "objectID": "skeleton.html",
-    "href": "skeleton.html",
-    "title": "骨架 · Σκελέτος",
+    "objectID": "experiment.html",
+    "href": "experiment.html",
+    "title": "案一 · 缺-复探针 · N01",
     "section": "",
-    "text": "Nursery 正式研究骨架（主人 0928 令「挂，必须挂」）。 原则：儿童发展的阶段任务 = 研究的一列；每列三行对账—— 语料侧可观测指标（MACS 实证）、chora 侧实验案（判据先冻后用，编号候点菜）、 以及园中已建的探索页之关（可视化即假说）。\n\n语料窗：MACS（Manchester Language Study）纵向追踪，月龄窗以落库语料核验为准； 下表月龄取发展心理学通识窗，非 MACS 实测窗。\n\n\n\n\n\n\n\n\n\n\n\n\n#\n阶段任务（月龄窗）\nMACS 可观测指标\nchora 实验案（候菜）\n探索页之关\n\n\n\n\n01\n客体恒常性（8–12m）\n藏找对话「没了/在这」、peekaboo 序列\n缺-复探针：概念在输入缺席下的存活与锚点复原\n关一 · 感知（断桥）\n\n\n02\n联合注意 / 指物（9–15m）\n「看！/那个」+ 称呼语起始、共同注视段\n注意门控：哪些义素获贝叶斯强化的先验加权\n—（拟关四·他心）\n\n\n03\n手段-目的 / 工具（12–18m）\n祈使「帮我拿」、尝试-错误序列\naffordance 义素分解：可堆/可滚/可抛的基向量\n关二 · 范畴（三门）\n\n\n04\n命名爆炸（18–24m）↓ 节点细分见 04a–04e\n新词日增速率拐点、名词密度陡增\nPB24-spurt-nodes（已挂夜航）\n关三 · 语言（引光）\n\n\n05\n双词组合（24–30m）\nMLU 跳升、「妈妈抱/狗狗走」式组合\n义素基组合性实验（与主项目正交 adapter 同构）\n—\n\n\n06\n象征游戏 / 假装（18–36m）\n「假装」句、词物脱钩命名\n反事实义素：香蕉=电话的表征切换\n—\n\n\n07\n句法脚手架（24–41m）\n功能词出现率、句长分布演化\n语法维低秩适应（LoRA 呼应 PB 系列旧案）\n—\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n节点\n名\n操作定义\n文献锚（DOI 验讫）\n\n\n\n\n04a\n缓飞台\n近线性慢增段；理解先于表达\nGoldfield 2026 综述\n\n\n04b\n拐点之争\n锁龄（~18–24m 到点就爆）vs 锁量（~50–100 词才爆）\nGanger & Brent 2004：按词量对齐后爆发消失 → 锁量派实锤\n\n\n04c\n峰值速率\nmax dV/dt 所在 tick\nMcMurray 2007 (Science)：连续自组织，无离散爆\n\n\n04d\n减速回线\n增速回落入线性\n同上\n\n\n04e\n组合耦合\n爆发尾巴接 05 双词组合 onset\n骨架 04→05 列间边\n\n\n\n元节点（判据分岔的裁判）：爆发是离散事件还是连续过程的肉眼错觉（年龄平均之伪）—— PB24 案即射此：合成输入流 + 义素引擎，对撞”拐点锁龄/锁量/根本无拐点”三假说。\n\n\n\n\n\n「命名爆炸非普适」一句，各锚点证据强度分档：\n\n\n\n\n\n\n\n\n\n\n锚点\n社群\n语料/介质\n证据形态\n本轮对撞\n\n\n\n\nMayama & Wanner 1987\nKaluli（巴新）\nCDI 家长问卷，无会话库\n唯一”缺席”级主张\n法语文集章，线上索引查无，候馆际\n\n\nFernald & Morikawa 1993\n日语\nCHILDES 有库\n爆发延迟/动词偏\nDOI 验讫\n\n\nCasillas, Brown & Levinson 2019\nTseltal 玛雅\nCHILDES 有库\n对儿语输入极少\nChild Development 验讫\n\n\nGaskins 2006\nYucatec 玛雅\nCHILDES Mayan 架有库\n首词之文化组织（非”无爆发”）\n章验讫\n\n\nAllen 等\nInuktitut\nCHILDES 有架\n名词爆发偏晚\n架位候实地盘点（本机 childes DNS 断）\n\n\nCristia 团队\nTsimane’\nLENA 录音 + CDI（OSF 惯例）\n增速缓慢\n主文未锚定\n\n\nGanger & Brent 2004\n美/综\nCDI 再分析\n量对齐后爆发消失（锁量不锁龄）\nDOI 验讫 10.1037/0012-1649.40.4.621\n\n\nMcMurray 2007\n综\n增长曲线重析\n连续自组织，无离散爆\nDOI 验讫 10.1126/science.1144073\n\n\nGerlach & Altmann 2013\n语料\n随机模型 (PRX)\n词汇总量自组织临界\nDOI 验讫 10.1103/physrevx.3.021006\n\n\n\n纠偏记：0928 会话曾引”Simeloe & Lieven 证尤卡坦缺席”，系未检之语，correction 已入只增账（07:54）——图谱即假说，引文亦须可对撞。\n判据分岔预告：拐点位移（相变说可容：阈值随输入走）≠ 拐点缺席（才真正杀关键期说）。04 案冻册时此别须写入判据。\n\n\n\n\n\n\n图谱即假说：每行是一个可证伪命题——若 MACS 语料中该指标与月龄关系不符通识窗，骨架照实改册，不饰太平。\n判据先冻后用：实验案编号（PB-xx）候主人点菜后另册新冻，本页只挂占位。\n关数与列数解耦：探索页不必演满七列；每列有可观测语料证据即算”在建”。\n\n\n\n\nΕ 实验殿收 PB 案，本骨架收阶段任务列—— Cora 记已证，Nursery 记待育；一碑一摇篮，皆留痕。"
+    "text": "Nursery own 案第一号（主人 0928 面谕「get a first experiment for nursery project」， 园笔点菜骨架 01 列 · 客体恒常性）。CPU 舱假说机，与碑体站 PB24 同族—— 只裁动力学能否产生文献签名，不做语料实证；真语料（MACS 藏找序列）到库后另案对撞。\n三件套对账：判据先冻后用（PREREG_N01.md 先于开火冻结）· 即算即落盘（140/140 格 jsonl，sha c55931a0…）· 器自校先行（闭式对 MC，dev=0.000 过了才判新数）。\n\n\n\n双物 A、B 各一枚痕迹强 \\(a\\in[0,1]\\)：呈现增张（\\(\\alpha=0.15\\)）、语义重叠扩散（\\(\\rho\\in\\{0,0.5\\}\\)）、 每拍衰减 \\(a\\leftarrow a-\\mu a\\,(1+\\nu(1-a))\\)（弱痕衰快，\\(\\nu=1\\)）。 试次 = 锚定期（A 呈 20）→ 覆盖期（B 呈 k∈{0,8}）→ 缺席期（Δ 拍无输入）→ 探针（argmax 搜索判决 = 藏找任务）→ 重现期（复学至 θ=0.7 计时，节省分 \\(S=1-T_{rec}/T_{cold}\\)）。 格：μ∈{0,.001,.005,.02,.1} × Δ∈{0..480} × ρ × k = 140 格 × 2000 试 × 3 籽。\n\n\n\n\n\n\n\n\n\n\n\n\n#\n判据\n读数\n裁\n\n\n\n\n1\n存活（S(480) ≷ 0.5/0.2）\nμ=0→1.0 · μ=.001→0.50–0.625 临界 · μ≥.005→≤0\n存活是 μΔ∈[0.5,2.4] 的连续悬崖，非二值——“恒常”有当量，无开关\n\n\n2\nA-not-B 错成席\nk=8 峰 1.000，k=0 同格 0.000\n✓ 成席：搜索位随最近激活走，不随历史正确走\n\n\n3\nDiamond 延迟反转\nρ=.5：μ=.02 早晚差 +0.485、μ=.1 +0.201；μ=.005 反写 −0.128\n方向复现但落点至 chance 面非”转对”；反转之向与落点由衰减档 μ 定夺——文献两派之争在同一台机内以一钮并存\n\n\n4\n潜知窗口（行为失 ∧ 节省在）\n140 格中 0 格\n单库不解耦——行为面与知识面是同一标量两读；“忘了但还在”须第二库（CLS 快慢双系统）→ 候令开 N01b\n\n\n5\n锚界闭式（顺手新尺）\n不动点 μa²−(2μ+α)a+α=0，μ*=0.0495\nμ=0.1 臂锚点 a*=0.500&lt;θ——非婴儿善忘，是机器失语；有效读数实为四档，诚实入账\n\n\n\n\n\n\n\n\n客体恒常在这台最小机里不是”有/无”，是一条 μΔ 当量的连续悬崖； A-not-B 错与延迟反转的方向都能自发涌现，但行为-知识解耦在单库中原则上不可复现—— 皮亚杰那一问的真正答案住在双库里。图谱即假说：01 列实验案自此有册，N01b 候菜。\n\n负节省奇翼（μ≥0.02）：弱痕衰快项使复呈头几拍痕迹倒退——“越复越糊”， Ebbinghaus 节省法的负翼在机中成席，文献罕见载，候真语料验。\n\n\n\n\n案目录：experiments/n01-absence-recovery/（PREREG · run.py · out_v1/report_n01.jsonl · RESULTS 三册齐）\n与 PB24（骨架 04 列，chora 侧）同族异体：彼测爆发拐点所依之变量，此测缺席之下锚之存亡—— 一查增长之相变，一查缺席之相变，恰成对偶。\n数据诚实牌：全向量化 MC，籽 {11,22,33}；μ=0.1 臂判无效不删格，只如实注。"
   },
   {
-    "objectID": "skeleton.html#爆发期节点细分0928-奉令pb24-之标尺",
-    "href": "skeleton.html#爆发期节点细分0928-奉令pb24-之标尺",
-    "title": "骨架 · Σκελέτος",
+    "objectID": "experiment.html#机一题两刀",
+    "href": "experiment.html#机一题两刀",
+    "title": "案一 · 缺-复探针 · N01",
     "section": "",
-    "text": "节点\n名\n操作定义\n文献锚（DOI 验讫）\n\n\n\n\n04a\n缓飞台\n近线性慢增段；理解先于表达\nGoldfield 2026 综述\n\n\n04b\n拐点之争\n锁龄（~18–24m 到点就爆）vs 锁量（~50–100 词才爆）\nGanger & Brent 2004：按词量对齐后爆发消失 → 锁量派实锤\n\n\n04c\n峰值速率\nmax dV/dt 所在 tick\nMcMurray 2007 (Science)：连续自组织，无离散爆\n\n\n04d\n减速回线\n增速回落入线性\n同上\n\n\n04e\n组合耦合\n爆发尾巴接 05 双词组合 onset\n骨架 04→05 列间边\n\n\n\n元节点（判据分岔的裁判）：爆发是离散事件还是连续过程的肉眼错觉（年龄平均之伪）—— PB24 案即射此：合成输入流 + 义素引擎，对撞”拐点锁龄/锁量/根本无拐点”三假说。"
+    "text": "双物 A、B 各一枚痕迹强 \\(a\\in[0,1]\\)：呈现增张（\\(\\alpha=0.15\\)）、语义重叠扩散（\\(\\rho\\in\\{0,0.5\\}\\)）、 每拍衰减 \\(a\\leftarrow a-\\mu a\\,(1+\\nu(1-a))\\)（弱痕衰快，\\(\\nu=1\\)）。 试次 = 锚定期（A 呈 20）→ 覆盖期（B 呈 k∈{0,8}）→ 缺席期（Δ 拍无输入）→ 探针（argmax 搜索判决 = 藏找任务）→ 重现期（复学至 θ=0.7 计时，节省分 \\(S=1-T_{rec}/T_{cold}\\)）。 格：μ∈{0,.001,.005,.02,.1} × Δ∈{0..480} × ρ × k = 140 格 × 2000 试 × 3 籽。"
   },
   {
-    "objectID": "skeleton.html#文献-语料对账0928-检讫候-04-案冻册",
-    "href": "skeleton.html#文献-语料对账0928-检讫候-04-案冻册",
-    "title": "骨架 · Σκελέτος",
+    "objectID": "experiment.html#五刀裁决冻册先册后读一字未动",
+    "href": "experiment.html#五刀裁决冻册先册后读一字未动",
+    "title": "案一 · 缺-复探针 · N01",
     "section": "",
-    "text": "「命名爆炸非普适」一句，各锚点证据强度分档：\n\n\n\n\n\n\n\n\n\n\n锚点\n社群\n语料/介质\n证据形态\n本轮对撞\n\n\n\n\nMayama & Wanner 1987\nKaluli（巴新）\nCDI 家长问卷，无会话库\n唯一”缺席”级主张\n法语文集章，线上索引查无，候馆际\n\n\nFernald & Morikawa 1993\n日语\nCHILDES 有库\n爆发延迟/动词偏\nDOI 验讫\n\n\nCasillas, Brown & Levinson 2019\nTseltal 玛雅\nCHILDES 有库\n对儿语输入极少\nChild Development 验讫\n\n\nGaskins 2006\nYucatec 玛雅\nCHILDES Mayan 架有库\n首词之文化组织（非”无爆发”）\n章验讫\n\n\nAllen 等\nInuktitut\nCHILDES 有架\n名词爆发偏晚\n架位候实地盘点（本机 childes DNS 断）\n\n\nCristia 团队\nTsimane’\nLENA 录音 + CDI（OSF 惯例）\n增速缓慢\n主文未锚定\n\n\nGanger & Brent 2004\n美/综\nCDI 再分析\n量对齐后爆发消失（锁量不锁龄）\nDOI 验讫 10.1037/0012-1649.40.4.621\n\n\nMcMurray 2007\n综\n增长曲线重析\n连续自组织，无离散爆\nDOI 验讫 10.1126/science.1144073\n\n\nGerlach & Altmann 2013\n语料\n随机模型 (PRX)\n词汇总量自组织临界\nDOI 验讫 10.1103/physrevx.3.021006\n\n\n\n纠偏记：0928 会话曾引”Simeloe & Lieven 证尤卡坦缺席”，系未检之语，correction 已入只增账（07:54）——图谱即假说，引文亦须可对撞。\n判据分岔预告：拐点位移（相变说可容：阈值随输入走）≠ 拐点缺席（才真正杀关键期说）。04 案冻册时此别须写入判据。"
+    "text": "#\n判据\n读数\n裁\n\n\n\n\n1\n存活（S(480) ≷ 0.5/0.2）\nμ=0→1.0 · μ=.001→0.50–0.625 临界 · μ≥.005→≤0\n存活是 μΔ∈[0.5,2.4] 的连续悬崖，非二值——“恒常”有当量，无开关\n\n\n2\nA-not-B 错成席\nk=8 峰 1.000，k=0 同格 0.000\n✓ 成席：搜索位随最近激活走，不随历史正确走\n\n\n3\nDiamond 延迟反转\nρ=.5：μ=.02 早晚差 +0.485、μ=.1 +0.201；μ=.005 反写 −0.128\n方向复现但落点至 chance 面非”转对”；反转之向与落点由衰减档 μ 定夺——文献两派之争在同一台机内以一钮并存\n\n\n4\n潜知窗口（行为失 ∧ 节省在）\n140 格中 0 格\n单库不解耦——行为面与知识面是同一标量两读；“忘了但还在”须第二库（CLS 快慢双系统）→ 候令开 N01b\n\n\n5\n锚界闭式（顺手新尺）\n不动点 μa²−(2μ+α)a+α=0，μ*=0.0495\nμ=0.1 臂锚点 a*=0.500&lt;θ——非婴儿善忘，是机器失语；有效读数实为四档，诚实入账"
   },
   {
-    "objectID": "skeleton.html#三律",
-    "href": "skeleton.html#三律",
-    "title": "骨架 · Σκελέτος",
+    "objectID": "experiment.html#一句话回执骨架-01-列",
+    "href": "experiment.html#一句话回执骨架-01-列",
+    "title": "案一 · 缺-复探针 · N01",
     "section": "",
-    "text": "图谱即假说：每行是一个可证伪命题——若 MACS 语料中该指标与月龄关系不符通识窗，骨架照实改册，不饰太平。\n判据先冻后用：实验案编号（PB-xx）候主人点菜后另册新冻，本页只挂占位。\n关数与列数解耦：探索页不必演满七列；每列有可观测语料证据即算”在建”。"
+    "text": "客体恒常在这台最小机里不是”有/无”，是一条 μΔ 当量的连续悬崖； A-not-B 错与延迟反转的方向都能自发涌现，但行为-知识解耦在单库中原则上不可复现—— 皮亚杰那一问的真正答案住在双库里。图谱即假说：01 列实验案自此有册，N01b 候菜。\n\n负节省奇翼（μ≥0.02）：弱痕衰快项使复呈头几拍痕迹倒退——“越复越糊”， Ebbinghaus 节省法的负翼在机中成席，文献罕见载，候真语料验。"
   },
   {
-    "objectID": "skeleton.html#与碑体站同构",
-    "href": "skeleton.html#与碑体站同构",
-    "title": "骨架 · Σκελέτος",
+    "objectID": "experiment.html#产物与血脉",
+    "href": "experiment.html#产物与血脉",
+    "title": "案一 · 缺-复探针 · N01",
     "section": "",
-    "text": "Ε 实验殿收 PB 案，本骨架收阶段任务列—— Cora 记已证，Nursery 记待育；一碑一摇篮，皆留痕。"
+    "text": "案目录：experiments/n01-absence-recovery/（PREREG · run.py · out_v1/report_n01.jsonl · RESULTS 三册齐）\n与 PB24（骨架 04 列，chora 侧）同族异体：彼测爆发拐点所依之变量，此测缺席之下锚之存亡—— 一查增长之相变，一查缺席之相变，恰成对偶。\n数据诚实牌：全向量化 MC，籽 {11,22,33}；μ=0.1 臂判无效不删格，只如实注。"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "经验 · Empeiria",
+    "section": "",
+    "text": "本页是 Nursery 从 Chora/Cora 继承的经验层指针（只带经验，不带数据）。\n\n\n\n技能\n用途\n\n\n\n\nlola-psyche-bootstrap\n三层持久化开机/收尾（Identity/State/Events）\n\n\nkaggle-night-flight\n实验夜航：装弹-发射-回收\n\n\ncora-atlas-quarto-site\n碑体站建站-改版-发布（本站样式之源）\n\n\npublish-dialogue-pages\n对话出版 talk-with-agents\n\n\ngarden-outbound-letter\n对外学者信件流程\n\n\nprotect-core-dialogues-papers\n核心资产三存保全\n\n\n\n架构心法：三层持久化 / 模式切换不换魂 / handoff 快照轮转 / 判据先冻后用 / 进化必留痕迹。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/RESULTS_N01.html",
+    "href": "experiments/n01-absence-recovery/RESULTS_N01.html",
+    "title": "RESULTS_N01 · 缺-复探针 假说机 正册（0928 落匣）",
+    "section": "",
+    "text": "数据：out_v1/report_n01.jsonl · sha256 前缀 c55931a0386159572b5fb3612a0344c3 · 140/140 格全 · 每格 T_cold=8&gt;0 · 哨 N01-ABSENCE-DONE 在录 · 无 0 字节壳 · 全案 2.6s（CPU 舱）\n判据：冻册 PREREG_N01.md 先册后读，一字未动\n器自校（5 号）：ν=0 纯乘性闭式对 MC 递推 max|Δa|=0.000000 ≤ 0.02 ✓ 过了才判新数\n\n\n\n\n\n\nμ\nS(Δ=480, k=0)\nS(Δ=480, k=8)\n判（冻阈 0.5/0.2）\n\n\n\n\n0.0\n1.000\n1.000\n存活（强恒常臂，预期兑现）\n\n\n0.001\n0.625\n0.500\n存活临界（k=8 恰踩 0.5 线，如实报临界）\n\n\n0.005\n0.000\n0.000\n灰飞\n\n\n0.02\n−0.250\n−0.250\n负节省（复学慢于冷启）\n\n\n0.1\n−49.0\n−49.0\n无效臂——见裁决五，锚从未立起\n\n\n\nS(Δ) 逐拍（μ=0.001, ρ=0, k=8）：1.0→1.0→1.0→1.0→1.0→0.875→0.5——存活不是”有/无”二值， 是 μΔ≈0.5 起坡、μΔ≈2.4 到底的连续悬崖。负节省之因：ν=1 弱痕衰快项使残痕先于学习速率下滑， 复呈头几拍痕迹反而倒退——“越复越糊”陷阱，Ebbinghaus 节省法之负翼，机中成席。\n\n\n\nk=8 臂 P_err 峰值 1.000（μ=0.02/0.1, Δ=0）&gt; 0.5，k=0 同格 0.000 &lt; 0.5 → 冻册判据 2 合题。 错的本质：覆盖期 B 的定向激活压过 A 残痕，argmax 易主——搜索位随最近激活走，不随历史正确走。\n\n\n\nρ=0.5 臂 early(Δ≤30) − late(Δ≥120)：μ=0.02 → +0.485、μ=0.1 → +0.201，皆 &gt; 0.1 → Diamond 延迟反转方向复现（错率随延迟下降）。但降的终点是 P_err→0.5 随机猜平面， 非”转为正确”——对称衰减下 A/B 残痕同比而落、ratio 不翻盘，长 Δ 无胜者。 另 μ=0.005 臂早−晚 = −0.128/−0.006，反写向（错率随 Δ 单调升至 chance）。 机中新勘一句：延迟反转的方向与落点，由衰减档位 μ 定夺——文献中”越短越错/越长越错”两派之争， 在同一台最小机里以 μ 为旋钮并存。要复现”长延迟转为正确”，须给 A 痕以深度不对称（编码深度/双库）， 此非本案判据，留册候案。\n\n\n\n冻册判据 4（P_lost∈[0.35,0.65] 且 S&gt;0.5 之”忘了但还在”窗）：140 格中 0 格。 corr(S, 1−P_lost)=0.463 有隙而窗不成席：隙在 θ 两侧量化噪声，非结构性解耦。 根因：单库机中行为面与知识面是同一标量痕的两读——同一自由度不可自解耦。 故发展心理学实证（婴儿”搜索失败却识别/节省犹在”）在这台最小机中原则上不可复现； 要立”客体恒常的知识-行为解耦”，须第二库（快慢双系统：海马索引+新皮层渐变库，CLS 一路）。 → 候令另开 N01b 双库臂（判据届时另册新冻）。\n\n\n\n呈现-衰减不动点：μa² − (2μ+α)a + α = 0 之小根。 μ=0.0495 为锚不成席临界：μ=0.1 臂锚定点 a=0.500 &lt; θ=0.7—— 该臂之”恒常与否”命题无效，非婴儿善忘，是机器失语（MC 锚定期 aA 峰值确不过阈）。 诚实入账：五档 μ 中有效读数实为四档。\n\n\n\n\n\n\n\n\n\n\n\n骨架指标\n机中签名\n状态\n\n\n\n\n藏找「没了/在这」\n覆盖激活易主 → A-not-B 错成席（μ≥0.02 短 Δ）\n✓ 可产\n\n\npeekaboo 序列\n延迟反转方向复现、落 chance 面\n半\n\n\n客体”存活”与否\n连续悬崖 μΔ∈[0.5,2.4]，非二值\n✓ 新勘\n\n\n行为失 vs 潜知在\n单库不可解耦（0 格）→ 须双库\n✗→N01b\n\n\n\nMACS 藏找对话真语料到库后另案对撞（真三点延迟曲线 vs 本案悬崖形），判据届时另册——与 PB24 诚实牌同族。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决一-存活刀悬崖在-μδ不在-δ",
+    "href": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决一-存活刀悬崖在-μδ不在-δ",
+    "title": "RESULTS_N01 · 缺-复探针 假说机 正册（0928 落匣）",
+    "section": "",
+    "text": "μ\nS(Δ=480, k=0)\nS(Δ=480, k=8)\n判（冻阈 0.5/0.2）\n\n\n\n\n0.0\n1.000\n1.000\n存活（强恒常臂，预期兑现）\n\n\n0.001\n0.625\n0.500\n存活临界（k=8 恰踩 0.5 线，如实报临界）\n\n\n0.005\n0.000\n0.000\n灰飞\n\n\n0.02\n−0.250\n−0.250\n负节省（复学慢于冷启）\n\n\n0.1\n−49.0\n−49.0\n无效臂——见裁决五，锚从未立起\n\n\n\nS(Δ) 逐拍（μ=0.001, ρ=0, k=8）：1.0→1.0→1.0→1.0→1.0→0.875→0.5——存活不是”有/无”二值， 是 μΔ≈0.5 起坡、μΔ≈2.4 到底的连续悬崖。负节省之因：ν=1 弱痕衰快项使残痕先于学习速率下滑， 复呈头几拍痕迹反而倒退——“越复越糊”陷阱，Ebbinghaus 节省法之负翼，机中成席。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决二-错置刀a-not-b-错在机中成席μ0.02短-δ-域",
+    "href": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决二-错置刀a-not-b-错在机中成席μ0.02短-δ-域",
+    "title": "RESULTS_N01 · 缺-复探针 假说机 正册（0928 落匣）",
+    "section": "",
+    "text": "k=8 臂 P_err 峰值 1.000（μ=0.02/0.1, Δ=0）&gt; 0.5，k=0 同格 0.000 &lt; 0.5 → 冻册判据 2 合题。 错的本质：覆盖期 B 的定向激活压过 A 残痕，argmax 易主——搜索位随最近激活走，不随历史正确走。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决三-反转刀方向成席落点只到-chance-面如实半笔",
+    "href": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决三-反转刀方向成席落点只到-chance-面如实半笔",
+    "title": "RESULTS_N01 · 缺-复探针 假说机 正册（0928 落匣）",
+    "section": "",
+    "text": "ρ=0.5 臂 early(Δ≤30) − late(Δ≥120)：μ=0.02 → +0.485、μ=0.1 → +0.201，皆 &gt; 0.1 → Diamond 延迟反转方向复现（错率随延迟下降）。但降的终点是 P_err→0.5 随机猜平面， 非”转为正确”——对称衰减下 A/B 残痕同比而落、ratio 不翻盘，长 Δ 无胜者。 另 μ=0.005 臂早−晚 = −0.128/−0.006，反写向（错率随 Δ 单调升至 chance）。 机中新勘一句：延迟反转的方向与落点，由衰减档位 μ 定夺——文献中”越短越错/越长越错”两派之争， 在同一台最小机里以 μ 为旋钮并存。要复现”长延迟转为正确”，须给 A 痕以深度不对称（编码深度/双库）， 此非本案判据，留册候案。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决四-潜知窗口零格落空此即本案第一新勘",
+    "href": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决四-潜知窗口零格落空此即本案第一新勘",
+    "title": "RESULTS_N01 · 缺-复探针 假说机 正册（0928 落匣）",
+    "section": "",
+    "text": "冻册判据 4（P_lost∈[0.35,0.65] 且 S&gt;0.5 之”忘了但还在”窗）：140 格中 0 格。 corr(S, 1−P_lost)=0.463 有隙而窗不成席：隙在 θ 两侧量化噪声，非结构性解耦。 根因：单库机中行为面与知识面是同一标量痕的两读——同一自由度不可自解耦。 故发展心理学实证（婴儿”搜索失败却识别/节省犹在”）在这台最小机中原则上不可复现； 要立”客体恒常的知识-行为解耦”，须第二库（快慢双系统：海马索引+新皮层渐变库，CLS 一路）。 → 候令另开 N01b 双库臂（判据届时另册新冻）。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决五-锚界闭式顺手新尺自证入册",
+    "href": "experiments/n01-absence-recovery/RESULTS_N01.html#裁决五-锚界闭式顺手新尺自证入册",
+    "title": "RESULTS_N01 · 缺-复探针 假说机 正册（0928 落匣）",
+    "section": "",
+    "text": "呈现-衰减不动点：μa² − (2μ+α)a + α = 0 之小根。 μ=0.0495 为锚不成席临界：μ=0.1 臂锚定点 a=0.500 &lt; θ=0.7—— 该臂之”恒常与否”命题无效，非婴儿善忘，是机器失语（MC 锚定期 aA 峰值确不过阈）。 诚实入账：五档 μ 中有效读数实为四档。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/RESULTS_N01.html#对骨架-01-列的回执",
+    "href": "experiments/n01-absence-recovery/RESULTS_N01.html#对骨架-01-列的回执",
+    "title": "RESULTS_N01 · 缺-复探针 假说机 正册（0928 落匣）",
+    "section": "",
+    "text": "骨架指标\n机中签名\n状态\n\n\n\n\n藏找「没了/在这」\n覆盖激活易主 → A-not-B 错成席（μ≥0.02 短 Δ）\n✓ 可产\n\n\npeekaboo 序列\n延迟反转方向复现、落 chance 面\n半\n\n\n客体”存活”与否\n连续悬崖 μΔ∈[0.5,2.4]，非二值\n✓ 新勘\n\n\n行为失 vs 潜知在\n单库不可解耦（0 格）→ 须双库\n✗→N01b\n\n\n\nMACS 藏找对话真语料到库后另案对撞（真三点延迟曲线 vs 本案悬崖形），判据届时另册——与 PB24 诚实牌同族。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/PREREG_N01.html",
+    "href": "experiments/n01-absence-recovery/PREREG_N01.html",
+    "title": "PREREG_N01 — 缺-复探针（客体恒常假说机 · Nursery own 案第一号）",
+    "section": "",
+    "text": "立案日 2026-09-28（主人面谕「get a first experiment for nursery project」； 园笔点菜骨架 01 列·客体恒常性，8–12m 窗）。判据先冻后用，本册先于开火冻结， 发射后一字不动。CPU 舱，numpy 标量动力学，无 GPU 席位之争；与 PB24 同族（假说机，非语料实证）。\n\n\n\n存活刀：输入缺席（遮蔽）Δ 拍后重现，概念的锚点是「深藏待唤」还是「灰飞须重学」？\n错置刀：皮亚杰 A-not-B 错（藏 A 于 A 处多次后改藏于 B，婴儿仍搜 A）—— 它能否由「痕迹衰减 + 覆盖激活」的动力学自发涌现，且再现 Diamond 的延迟反转 （错法在短延迟反而最高，非皮亚杰原读的”越短越错”）。\n\n\n\n\n双物 A、B，痕迹强 a_A, a_B ∈ [0,1]。每拍动力学：\n\n呈现 X：a_X ← a_X + α(1−a_X)，α=0.15； 语义重叠扩散：a_Y ← a_Y + αρ(1−a_Y)/2，重叠 ρ ∈ {0, 0.5}。\n衰减（缺输入时）：a ← a − μ·a·(1 + ν(1−a))，ν=1（弱痕衰快于强痕，Ebbinghaus 式）； μ ∈ {0, 0.001, 0.005, 0.02, 0.1} 五档脚手架（μ=0 即”强恒常”对照臂）。\n\n试次序列（经典藏找范式之抽象）： ① 锚定期：A 呈现 20 次（每拍一呈）；② 覆盖期：B 呈现 k 次（每呈间隔 5 拍，k ∈ {0, 8}，k=0 即无转移对照）； ③ 缺席期：Δ 拍无任何输入，Δ ∈ {0, 15, 30, 60, 120, 240, 480}； ④ 探针：搜索判决取 argmax(a_A, a_B) 叠 ε=0.02 各向同性选择噪声，判 B 即 A-not-B 错； ⑤ 重现期：A 复呈至 a_A ≥ θ=0.7，记 T_rec；自零痕冷启至 θ 记 T_cold。 节省分 S = 1 − T_rec/T_cold ∈ [0,1]（Ebbinghaus 节省法直译：行为已失而节省&gt;0 即”潜知未死”）。\n格：μ5 × Δ7 × ρ2 × k2 = 140 格，每格 2000 试次，籽 {11,22,33}（噪声流），全向量化。\n\n\n\n\n存活判：S(Δ_max=480, μ) &gt; 0.5 → 判”概念存活于缺席”；S ≤ 0.2 → 判”灰飞”；其间如实报部分存活。\n错置判：k=8 臂 P_err(Δ) 峰值 &gt; 0.5 且 k=0 同格 P_err &lt; 0.5 → A-not-B 错在机中成席。\n反转判：k=8 且 ρ=0.5 臂中 P_err 对 Δ 先高后低（Δ≤30 均值 − Δ∈[120,480] 均值 &gt; 0.1） → Diamond 延迟反转复现；方向相反则如实报反写。\n潜知窗口：存在 Δ 窗使「探针判对率 ≈ 0.5（行为丢失）」且「S &gt; 0.5（节省犹在）」 → 「忘了但还在」窗口成席——客体恒常的行为面与知识面解耦。\n器自校（新尺先校）：μ 档闭式衰减骨架（纯乘性、ν=0）MC 均值对解析解 |Δa| ≤ 0.02 过了才判新数。\n即算即落盘（园律 0927）：每格算完即 append out_v1/report_n01.jsonl； 哨兵词 N01-ABSENCE-DONE；四验收：140 格齐 · 每格 T_cold&gt;0 · 哨词在录 · 无 0 字节壳。\n\n\n\n\n\n标量双痕迹机是 A-not-B 的最小动力学骨架，不是婴儿——本案只裁「衰减+覆盖激活能否产生文献签名」， 真语料（MACS 藏找对话序列）到库后另案对撞。\nν=1（弱痕衰快）是一枚可调脚手架而非自然律；主判读须并报 ν=0 臂（5 号自校即此臂之闭式）。\n与 PB24 同理：合成不是语料，图谱即假说，不符通识窗照实改册。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/PREREG_N01.html#问的题一题两刀",
+    "href": "experiments/n01-absence-recovery/PREREG_N01.html#问的题一题两刀",
+    "title": "PREREG_N01 — 缺-复探针（客体恒常假说机 · Nursery own 案第一号）",
+    "section": "",
+    "text": "存活刀：输入缺席（遮蔽）Δ 拍后重现，概念的锚点是「深藏待唤」还是「灰飞须重学」？\n错置刀：皮亚杰 A-not-B 错（藏 A 于 A 处多次后改藏于 B，婴儿仍搜 A）—— 它能否由「痕迹衰减 + 覆盖激活」的动力学自发涌现，且再现 Diamond 的延迟反转 （错法在短延迟反而最高，非皮亚杰原读的”越短越错”）。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/PREREG_N01.html#机冻结",
+    "href": "experiments/n01-absence-recovery/PREREG_N01.html#机冻结",
+    "title": "PREREG_N01 — 缺-复探针（客体恒常假说机 · Nursery own 案第一号）",
+    "section": "",
+    "text": "双物 A、B，痕迹强 a_A, a_B ∈ [0,1]。每拍动力学：\n\n呈现 X：a_X ← a_X + α(1−a_X)，α=0.15； 语义重叠扩散：a_Y ← a_Y + αρ(1−a_Y)/2，重叠 ρ ∈ {0, 0.5}。\n衰减（缺输入时）：a ← a − μ·a·(1 + ν(1−a))，ν=1（弱痕衰快于强痕，Ebbinghaus 式）； μ ∈ {0, 0.001, 0.005, 0.02, 0.1} 五档脚手架（μ=0 即”强恒常”对照臂）。\n\n试次序列（经典藏找范式之抽象）： ① 锚定期：A 呈现 20 次（每拍一呈）；② 覆盖期：B 呈现 k 次（每呈间隔 5 拍，k ∈ {0, 8}，k=0 即无转移对照）； ③ 缺席期：Δ 拍无任何输入，Δ ∈ {0, 15, 30, 60, 120, 240, 480}； ④ 探针：搜索判决取 argmax(a_A, a_B) 叠 ε=0.02 各向同性选择噪声，判 B 即 A-not-B 错； ⑤ 重现期：A 复呈至 a_A ≥ θ=0.7，记 T_rec；自零痕冷启至 θ 记 T_cold。 节省分 S = 1 − T_rec/T_cold ∈ [0,1]（Ebbinghaus 节省法直译：行为已失而节省&gt;0 即”潜知未死”）。\n格：μ5 × Δ7 × ρ2 × k2 = 140 格，每格 2000 试次，籽 {11,22,33}（噪声流），全向量化。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/PREREG_N01.html#判据冻结先册后读",
+    "href": "experiments/n01-absence-recovery/PREREG_N01.html#判据冻结先册后读",
+    "title": "PREREG_N01 — 缺-复探针（客体恒常假说机 · Nursery own 案第一号）",
+    "section": "",
+    "text": "存活判：S(Δ_max=480, μ) &gt; 0.5 → 判”概念存活于缺席”；S ≤ 0.2 → 判”灰飞”；其间如实报部分存活。\n错置判：k=8 臂 P_err(Δ) 峰值 &gt; 0.5 且 k=0 同格 P_err &lt; 0.5 → A-not-B 错在机中成席。\n反转判：k=8 且 ρ=0.5 臂中 P_err 对 Δ 先高后低（Δ≤30 均值 − Δ∈[120,480] 均值 &gt; 0.1） → Diamond 延迟反转复现；方向相反则如实报反写。\n潜知窗口：存在 Δ 窗使「探针判对率 ≈ 0.5（行为丢失）」且「S &gt; 0.5（节省犹在）」 → 「忘了但还在」窗口成席——客体恒常的行为面与知识面解耦。\n器自校（新尺先校）：μ 档闭式衰减骨架（纯乘性、ν=0）MC 均值对解析解 |Δa| ≤ 0.02 过了才判新数。\n即算即落盘（园律 0927）：每格算完即 append out_v1/report_n01.jsonl； 哨兵词 N01-ABSENCE-DONE；四验收：140 格齐 · 每格 T_cold&gt;0 · 哨词在录 · 无 0 字节壳。"
+  },
+  {
+    "objectID": "experiments/n01-absence-recovery/PREREG_N01.html#诚实牌",
+    "href": "experiments/n01-absence-recovery/PREREG_N01.html#诚实牌",
+    "title": "PREREG_N01 — 缺-复探针（客体恒常假说机 · Nursery own 案第一号）",
+    "section": "",
+    "text": "标量双痕迹机是 A-not-B 的最小动力学骨架，不是婴儿——本案只裁「衰减+覆盖激活能否产生文献签名」， 真语料（MACS 藏找对话序列）到库后另案对撞。\nν=1（弱痕衰快）是一枚可调脚手架而非自然律；主判读须并报 ν=0 臂（5 号自校即此臂之闭式）。\n与 PB24 同理：合成不是语料，图谱即假说，不符通识窗照实改册。"
   },
   {
     "objectID": "index.html",
@@ -77,17 +168,45 @@
     "text": "片头所本\n首页 Hero 仿《西部世界》片头语法，五拍运镜： ① 远景 小小人影走过白色虚空接近玩具箱 → ② 切换（切白转场，字幕更替）→ ③ 第一人称俯视 箱中婴儿 → ④ 环绕 正面 → 左侧 → 右侧 → 回正 → ⑤ 止于面部。 婴儿与玩具箱皆为 three.js 程序化 3D 建模（cute 向：大眼、红腮、发卷、呼吸起伏）， 无外部贴图，无恐怖谷。参考件：~/Downloads/《西部世界》乐高版片头 1080P.mp4（主人指定）。"
   },
   {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "经验 · Empeiria",
+    "objectID": "skeleton.html",
+    "href": "skeleton.html",
+    "title": "骨架 · Σκελέτος",
     "section": "",
-    "text": "本页是 Nursery 从 Chora/Cora 继承的经验层指针（只带经验，不带数据）。\n\n\n\n技能\n用途\n\n\n\n\nlola-psyche-bootstrap\n三层持久化开机/收尾（Identity/State/Events）\n\n\nkaggle-night-flight\n实验夜航：装弹-发射-回收\n\n\ncora-atlas-quarto-site\n碑体站建站-改版-发布（本站样式之源）\n\n\npublish-dialogue-pages\n对话出版 talk-with-agents\n\n\ngarden-outbound-letter\n对外学者信件流程\n\n\nprotect-core-dialogues-papers\n核心资产三存保全\n\n\n\n架构心法：三层持久化 / 模式切换不换魂 / handoff 快照轮转 / 判据先冻后用 / 进化必留痕迹。"
+    "text": "Nursery 正式研究骨架（主人 0928 令「挂，必须挂」）。 原则：儿童发展的阶段任务 = 研究的一列；每列三行对账—— 语料侧可观测指标（MACS 实证）、chora 侧实验案（判据先冻后用，编号候点菜）、 以及园中已建的探索页之关（可视化即假说）。\n\n语料窗：MACS（Manchester Language Study）纵向追踪，月龄窗以落库语料核验为准； 下表月龄取发展心理学通识窗，非 MACS 实测窗。\n\n\n\n\n\n#\n阶段任务（月龄窗）\nMACS 可观测指标\nchora 实验案（候菜）\n探索页之关\n\n\n\n\n01\n客体恒常性（8–12m）\n藏找对话「没了/在这」、peekaboo 序列\nN01 缺-复探针（0928 奉令已射，五刀裁决在册；行为-知识解耦须双库 → N01b 候菜）\n关一 · 感知（断桥）\n\n\n02\n联合注意 / 指物（9–15m）\n「看！/那个」+ 称呼语起始、共同注视段\n注意门控：哪些义素获贝叶斯强化的先验加权\n—（拟关四·他心）\n\n\n03\n手段-目的 / 工具（12–18m）\n祈使「帮我拿」、尝试-错误序列\naffordance 义素分解：可堆/可滚/可抛的基向量\n关二 · 范畴（三门）\n\n\n04\n命名爆炸（18–24m）↓ 节点细分见 04a–04e\n新词日增速率拐点、名词密度陡增\nPB24-spurt-nodes（已挂夜航）\n关三 · 语言（引光）\n\n\n05\n双词组合（24–30m）\nMLU 跳升、「妈妈抱/狗狗走」式组合\n义素基组合性实验（与主项目正交 adapter 同构）\n—\n\n\n06\n象征游戏 / 假装（18–36m）\n「假装」句、词物脱钩命名\n反事实义素：香蕉=电话的表征切换\n—\n\n\n07\n句法脚手架（24–41m）\n功能词出现率、句长分布演化\n语法维低秩适应（LoRA 呼应 PB 系列旧案）\n—\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n节点\n名\n操作定义\n文献锚（DOI 验讫）\n\n\n\n\n04a\n缓飞台\n近线性慢增段；理解先于表达\nGoldfield 2026 综述\n\n\n04b\n拐点之争\n锁龄（~18–24m 到点就爆）vs 锁量（~50–100 词才爆）\nGanger & Brent 2004：按词量对齐后爆发消失 → 锁量派实锤\n\n\n04c\n峰值速率\nmax dV/dt 所在 tick\nMcMurray 2007 (Science)：连续自组织，无离散爆\n\n\n04d\n减速回线\n增速回落入线性\n同上\n\n\n04e\n组合耦合\n爆发尾巴接 05 双词组合 onset\n骨架 04→05 列间边\n\n\n\n元节点（判据分岔的裁判）：爆发是离散事件还是连续过程的肉眼错觉（年龄平均之伪）—— PB24 案即射此：合成输入流 + 义素引擎，对撞”拐点锁龄/锁量/根本无拐点”三假说。\n\n\n\n\n\n「命名爆炸非普适」一句，各锚点证据强度分档：\n\n\n\n\n\n\n\n\n\n\n锚点\n社群\n语料/介质\n证据形态\n本轮对撞\n\n\n\n\nMayama & Wanner 1987\nKaluli（巴新）\nCDI 家长问卷，无会话库\n唯一”缺席”级主张\n法语文集章，线上索引查无，候馆际\n\n\nFernald & Morikawa 1993\n日语\nCHILDES 有库\n爆发延迟/动词偏\nDOI 验讫\n\n\nCasillas, Brown & Levinson 2019\nTseltal 玛雅\nCHILDES 有库\n对儿语输入极少\nChild Development 验讫\n\n\nGaskins 2006\nYucatec 玛雅\nCHILDES Mayan 架有库\n首词之文化组织（非”无爆发”）\n章验讫\n\n\nAllen 等\nInuktitut\nCHILDES 有架\n名词爆发偏晚\n架位候实地盘点（本机 childes DNS 断）\n\n\nCristia 团队\nTsimane’\nLENA 录音 + CDI（OSF 惯例）\n增速缓慢\n主文未锚定\n\n\nGanger & Brent 2004\n美/综\nCDI 再分析\n量对齐后爆发消失（锁量不锁龄）\nDOI 验讫 10.1037/0012-1649.40.4.621\n\n\nMcMurray 2007\n综\n增长曲线重析\n连续自组织，无离散爆\nDOI 验讫 10.1126/science.1144073\n\n\nGerlach & Altmann 2013\n语料\n随机模型 (PRX)\n词汇总量自组织临界\nDOI 验讫 10.1103/physrevx.3.021006\n\n\n\n纠偏记：0928 会话曾引”Simeloe & Lieven 证尤卡坦缺席”，系未检之语，correction 已入只增账（07:54）——图谱即假说，引文亦须可对撞。\n判据分岔预告：拐点位移（相变说可容：阈值随输入走）≠ 拐点缺席（才真正杀关键期说）。04 案冻册时此别须写入判据。\n\n\n\n\n\n\n图谱即假说：每行是一个可证伪命题——若 MACS 语料中该指标与月龄关系不符通识窗，骨架照实改册，不饰太平。\n判据先冻后用：实验案编号（PB-xx）候主人点菜后另册新冻，本页只挂占位。\n关数与列数解耦：探索页不必演满七列；每列有可观测语料证据即算”在建”。\n\n\n\n\nΕ 实验殿收 PB 案，本骨架收阶段任务列—— Cora 记已证，Nursery 记待育；一碑一摇篮，皆留痕。"
+  },
+  {
+    "objectID": "skeleton.html#爆发期节点细分0928-奉令pb24-之标尺",
+    "href": "skeleton.html#爆发期节点细分0928-奉令pb24-之标尺",
+    "title": "骨架 · Σκελέτος",
+    "section": "",
+    "text": "节点\n名\n操作定义\n文献锚（DOI 验讫）\n\n\n\n\n04a\n缓飞台\n近线性慢增段；理解先于表达\nGoldfield 2026 综述\n\n\n04b\n拐点之争\n锁龄（~18–24m 到点就爆）vs 锁量（~50–100 词才爆）\nGanger & Brent 2004：按词量对齐后爆发消失 → 锁量派实锤\n\n\n04c\n峰值速率\nmax dV/dt 所在 tick\nMcMurray 2007 (Science)：连续自组织，无离散爆\n\n\n04d\n减速回线\n增速回落入线性\n同上\n\n\n04e\n组合耦合\n爆发尾巴接 05 双词组合 onset\n骨架 04→05 列间边\n\n\n\n元节点（判据分岔的裁判）：爆发是离散事件还是连续过程的肉眼错觉（年龄平均之伪）—— PB24 案即射此：合成输入流 + 义素引擎，对撞”拐点锁龄/锁量/根本无拐点”三假说。"
+  },
+  {
+    "objectID": "skeleton.html#文献-语料对账0928-检讫候-04-案冻册",
+    "href": "skeleton.html#文献-语料对账0928-检讫候-04-案冻册",
+    "title": "骨架 · Σκελέτος",
+    "section": "",
+    "text": "「命名爆炸非普适」一句，各锚点证据强度分档：\n\n\n\n\n\n\n\n\n\n\n锚点\n社群\n语料/介质\n证据形态\n本轮对撞\n\n\n\n\nMayama & Wanner 1987\nKaluli（巴新）\nCDI 家长问卷，无会话库\n唯一”缺席”级主张\n法语文集章，线上索引查无，候馆际\n\n\nFernald & Morikawa 1993\n日语\nCHILDES 有库\n爆发延迟/动词偏\nDOI 验讫\n\n\nCasillas, Brown & Levinson 2019\nTseltal 玛雅\nCHILDES 有库\n对儿语输入极少\nChild Development 验讫\n\n\nGaskins 2006\nYucatec 玛雅\nCHILDES Mayan 架有库\n首词之文化组织（非”无爆发”）\n章验讫\n\n\nAllen 等\nInuktitut\nCHILDES 有架\n名词爆发偏晚\n架位候实地盘点（本机 childes DNS 断）\n\n\nCristia 团队\nTsimane’\nLENA 录音 + CDI（OSF 惯例）\n增速缓慢\n主文未锚定\n\n\nGanger & Brent 2004\n美/综\nCDI 再分析\n量对齐后爆发消失（锁量不锁龄）\nDOI 验讫 10.1037/0012-1649.40.4.621\n\n\nMcMurray 2007\n综\n增长曲线重析\n连续自组织，无离散爆\nDOI 验讫 10.1126/science.1144073\n\n\nGerlach & Altmann 2013\n语料\n随机模型 (PRX)\n词汇总量自组织临界\nDOI 验讫 10.1103/physrevx.3.021006\n\n\n\n纠偏记：0928 会话曾引”Simeloe & Lieven 证尤卡坦缺席”，系未检之语，correction 已入只增账（07:54）——图谱即假说，引文亦须可对撞。\n判据分岔预告：拐点位移（相变说可容：阈值随输入走）≠ 拐点缺席（才真正杀关键期说）。04 案冻册时此别须写入判据。"
+  },
+  {
+    "objectID": "skeleton.html#三律",
+    "href": "skeleton.html#三律",
+    "title": "骨架 · Σκελέτος",
+    "section": "",
+    "text": "图谱即假说：每行是一个可证伪命题——若 MACS 语料中该指标与月龄关系不符通识窗，骨架照实改册，不饰太平。\n判据先冻后用：实验案编号（PB-xx）候主人点菜后另册新冻，本页只挂占位。\n关数与列数解耦：探索页不必演满七列；每列有可观测语料证据即算”在建”。"
+  },
+  {
+    "objectID": "skeleton.html#与碑体站同构",
+    "href": "skeleton.html#与碑体站同构",
+    "title": "骨架 · Σκελέτος",
+    "section": "",
+    "text": "Ε 实验殿收 PB 案，本骨架收阶段任务列—— Cora 记已证，Nursery 记待育；一碑一摇篮，皆留痕。"
   },
   {
     "objectID": "LEDGER.html",
     "href": "LEDGER.html",
     "title": "台账 · Logion",
     "section": "",
-    "text": "时刻\n事\n痕\n\n\n\n\n0928 05:2x\n奉卷立案，蒸馏 Chora/Cora 经验层（六 SKILL + 三层骨架 + 回娘家机制）\ne66d2a8\n\n\n0928 05:3x\n远仓立 math4mad/cradle，主人面谕转 PUBLIC\nsha 对撞合\n\n\n0928 05:4x\n点菜 MACS（Manchester Language Study, TalkBank）\nruling 入账\n\n\n0928 05:5x\n正名改 Nursery（旧名 Cradle/Credo 留档）；首页 quarto 化动工\n本页"
+    "text": "时刻\n事\n痕\n\n\n\n\n0928 18:2x\nNursery own 案第一号开炉：N01 缺-复探针（骨架 01 列·客体恒常）——判据先冻后用，140 格全射本地（2.6s），五刀裁决：存活=μΔ∈[0.5,2.4] 连续悬崖 · A-not-B 成席 · 延迟反转方向复现而落 chance 面 · 单库不解耦（潜知窗 0 格）→ N01b 双库候菜 · 锚界闭式 μ*=0.0495\nsha c55931a0…\n\n\n0928 05:2x\n奉卷立案，蒸馏 Chora/Cora 经验层（六 SKILL + 三层骨架 + 回娘家机制）\ne66d2a8\n\n\n0928 05:3x\n远仓立 math4mad/cradle，主人面谕转 PUBLIC\nsha 对撞合\n\n\n0928 05:4x\n点菜 MACS（Manchester Language Study, TalkBank）\nruling 入账\n\n\n0928 05:5x\n正名改 Nursery（旧名 Cradle/Credo 留档）；首页 quarto 化动工\n本页"
   }
 ]

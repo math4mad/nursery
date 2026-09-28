@@ -13,5 +13,14 @@
   },
   "skeleton.qmd": {
     "skeleton.html": "51fdbb10"
+  },
+  "experiments/n01-absence-recovery/PREREG_N01.md": {
+    "PREREG_N01.html": "855bc3cb"
+  },
+  "experiments/n01-absence-recovery/RESULTS_N01.md": {
+    "RESULTS_N01.html": "5aa8e95c"
+  },
+  "experiment.qmd": {
+    "experiment.html": "36264dd7"
   }
 }

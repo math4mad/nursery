@@ -4,6 +4,7 @@ title: "台账 · Logion"
 
 | 时刻 | 事 | 痕 |
 |------|----|----|
+| 0928 18:2x | **Nursery own 案第一号开炉**：N01 缺-复探针（骨架 01 列·客体恒常）——判据先冻后用，140 格全射本地（2.6s），五刀裁决：存活=μΔ∈[0.5,2.4] 连续悬崖 · A-not-B 成席 · 延迟反转方向复现而落 chance 面 · **单库不解耦（潜知窗 0 格）→ N01b 双库候菜** · 锚界闭式 μ*=0.0495 | sha `c55931a0…` |
 | 0928 05:2x | 奉卷立案，蒸馏 Chora/Cora 经验层（六 SKILL + 三层骨架 + 回娘家机制） | e66d2a8 |
 | 0928 05:3x | 远仓立 `math4mad/cradle`，主人面谕转 PUBLIC | sha 对撞合 |
 | 0928 05:4x | 点菜 MACS（Manchester Language Study, TalkBank） | ruling 入账 |

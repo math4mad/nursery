@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>台账 · Logion – Nursery · 托儿所</title>
+<title>experiment – Nursery · 托儿所</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,11 +74,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles/site.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -112,11 +141,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">骨架 · Σκελετός</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./experiment.html"> 
+    <a class="nav-link active" href="./experiment.html" aria-current="page"> 
 <span class="menu-text">案一 · 缺-复探针</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./LEDGER.html" aria-current="page"> 
+    <a class="nav-link" href="./LEDGER.html"> 
 <span class="menu-text">台账 · Logion</span></a>
   </li>  
 </ul>
@@ -137,75 +166,97 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">台账 · Logion</h1>
+
+
+
+<section id="案一-缺-复探针-n01" class="level1">
+<h1>案一 · 缺-复探针 · N01</h1>
+<div id="n01-intro">
+<p><strong>Nursery own 案第一号</strong>（主人 0928 面谕「get a first experiment for nursery project」， 园笔点菜骨架 <strong>01 列 · 客体恒常性</strong>）。CPU 舱假说机，与碑体站 PB24 同族—— <strong>只裁动力学能否产生文献签名，不做语料实证</strong>；真语料（MACS 藏找序列）到库后另案对撞。</p>
+<p>三件套对账：判据先冻后用（<code>PREREG_N01.md</code> 先于开火冻结）· 即算即落盘（140/140 格 jsonl，sha <code>c55931a0…</code>）· 器自校先行（闭式对 MC，dev=0.000 过了才判新数）。</p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<section id="机一题两刀" class="level2">
+<h2 class="anchored" data-anchor-id="机一题两刀">机（一题两刀）</h2>
+<p>双物 A、B 各一枚痕迹强 <span class="math inline">\(a\in[0,1]\)</span>：呈现增张（<span class="math inline">\(\alpha=0.15\)</span>）、语义重叠扩散（<span class="math inline">\(\rho\in\{0,0.5\}\)</span>）、 每拍衰减 <span class="math inline">\(a\leftarrow a-\mu a\,(1+\nu(1-a))\)</span>（弱痕衰快，<span class="math inline">\(\nu=1\)</span>）。 试次 = <strong>锚定期</strong>（A 呈 20）→ <strong>覆盖期</strong>（B 呈 k∈{0,8}）→ <strong>缺席期</strong>（Δ 拍无输入）→ <strong>探针</strong>（argmax 搜索判决 = 藏找任务）→ <strong>重现期</strong>（复学至 θ=0.7 计时，<strong>节省分</strong> <span class="math inline">\(S=1-T_{rec}/T_{cold}\)</span>）。 格：μ∈{0,.001,.005,.02,.1} × Δ∈{0..480} × ρ × k = 140 格 × 2000 试 × 3 籽。</p>
+</section>
+<section id="五刀裁决冻册先册后读一字未动" class="level2">
+<h2 class="anchored" data-anchor-id="五刀裁决冻册先册后读一字未动">五刀裁决（冻册先册后读，一字未动）</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 42%">
-<col style="width: 28%">
-<col style="width: 28%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>时刻</th>
-<th>事</th>
-<th>痕</th>
+<th>#</th>
+<th>判据</th>
+<th>读数</th>
+<th>裁</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>0928 18:2x</td>
-<td><strong>Nursery own 案第一号开炉</strong>：N01 缺-复探针（骨架 01 列·客体恒常）——判据先冻后用，140 格全射本地（2.6s），五刀裁决：存活=μΔ∈[0.5,2.4] 连续悬崖 · A-not-B 成席 · 延迟反转方向复现而落 chance 面 · <strong>单库不解耦（潜知窗 0 格）→ N01b 双库候菜</strong> · 锚界闭式 μ*=0.0495</td>
-<td>sha <code>c55931a0…</code></td>
+<td>1</td>
+<td>存活（S(480) ≷ 0.5/0.2）</td>
+<td>μ=0→1.0 · μ=.001→<strong>0.50–0.625 临界</strong> · μ≥.005→≤0</td>
+<td>存活是 <strong>μΔ∈[0.5,2.4] 的连续悬崖</strong>，非二值——“恒常”有当量，无开关</td>
 </tr>
 <tr class="even">
-<td>0928 05:2x</td>
-<td>奉卷立案，蒸馏 Chora/Cora 经验层（六 SKILL + 三层骨架 + 回娘家机制）</td>
-<td>e66d2a8</td>
+<td>2</td>
+<td>A-not-B 错成席</td>
+<td>k=8 峰 <strong>1.000</strong>，k=0 同格 0.000</td>
+<td>✓ 成席：搜索位随<strong>最近激活</strong>走，不随历史正确走</td>
 </tr>
 <tr class="odd">
-<td>0928 05:3x</td>
-<td>远仓立 <code>math4mad/cradle</code>，主人面谕转 PUBLIC</td>
-<td>sha 对撞合</td>
+<td>3</td>
+<td>Diamond 延迟反转</td>
+<td>ρ=.5：μ=.02 早晚差 <strong>+0.485</strong>、μ=.1 +0.201；μ=.005 <strong>反写 −0.128</strong></td>
+<td>方向复现但落点至 <strong>chance 面</strong>非”转对”；<strong>反转之向与落点由衰减档 μ 定夺</strong>——文献两派之争在同一台机内以一钮并存</td>
 </tr>
 <tr class="even">
-<td>0928 05:4x</td>
-<td>点菜 MACS（Manchester Language Study, TalkBank）</td>
-<td>ruling 入账</td>
+<td>4</td>
+<td>潜知窗口（行为失 ∧ 节省在）</td>
+<td>140 格中 <strong>0 格</strong></td>
+<td><strong>单库不解耦</strong>——行为面与知识面是同一标量两读；“忘了但还在”须<strong>第二库</strong>（CLS 快慢双系统）→ 候令开 N01b</td>
 </tr>
 <tr class="odd">
-<td>0928 05:5x</td>
-<td><strong>正名改 Nursery</strong>（旧名 Cradle/Credo 留档）；首页 quarto 化动工</td>
-<td>本页</td>
+<td>5</td>
+<td>锚界闭式（顺手新尺）</td>
+<td>不动点 μa²−(2μ+α)a+α=0，μ*=0.0495</td>
+<td>μ=0.1 臂锚点 a*=0.500&lt;θ——<strong>非婴儿善忘，是机器失语</strong>；有效读数实为四档，诚实入账</td>
 </tr>
 </tbody>
 </table>
+</section>
+<div id="n01-verdict">
+<section id="一句话回执骨架-01-列" class="level2">
+<h2 class="anchored" data-anchor-id="一句话回执骨架-01-列">一句话回执骨架 01 列</h2>
+<blockquote class="blockquote">
+<p>客体恒常在这台最小机里<strong>不是”有/无”，是一条 μΔ 当量的连续悬崖</strong>； A-not-B 错与延迟反转的方向都能自发涌现，但<strong>行为-知识解耦在单库中原则上不可复现</strong>—— 皮亚杰那一问的真正答案住在双库里。<strong>图谱即假说</strong>：01 列实验案自此有册，N01b 候菜。</p>
+</blockquote>
+<p><strong>负节省奇翼</strong>（μ≥0.02）：弱痕衰快项使复呈头几拍痕迹<strong>倒退</strong>——“越复越糊”， Ebbinghaus 节省法的负翼在机中成席，文献罕见载，候真语料验。</p>
+</section>
+<section id="产物与血脉" class="level2">
+<h2 class="anchored" data-anchor-id="产物与血脉">产物与血脉</h2>
+<ul>
+<li>案目录：<code>experiments/n01-absence-recovery/</code>（PREREG · run.py · out_v1/report_n01.jsonl · RESULTS 三册齐）</li>
+<li>与 PB24（骨架 04 列，chora 侧）同族异体：彼测<strong>爆发拐点所依之变量</strong>，此测<strong>缺席之下锚之存亡</strong>—— 一查增长之相变，一查缺席之相变，恰成对偶。</li>
+<li>数据诚实牌：全向量化 MC，籽 {11,22,33}；μ=0.1 臂判无效不删格，只如实注。</li>
+</ul>
+</section>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

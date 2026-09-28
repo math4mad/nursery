@@ -15,6 +15,8 @@ website:
         text: "探索 · Ὁδός"
       - href: skeleton.qmd
         text: "骨架 · Σκελετός"
+      - href: experiment.qmd
+        text: "案一 · 缺-复探针"
       - href: LEDGER.qmd
         text: "台账 · Logion"
     right:
